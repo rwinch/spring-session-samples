@@ -31,7 +31,7 @@ import sample.websession.pages.LoginPage;
 /**
  * @author Pool Dolorier
  */
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @RunWith(SpringRunner.class)
 public class SecurityTests {
 	@LocalServerPort
