@@ -1,10 +1,10 @@
+import io.spring.gradle.dependencymanagement.DependencyManagementPlugin
 import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 apply<SpringBootPlugin>()
+apply<DependencyManagementPlugin>()
 
 dependencies {
-	implementation(platform(SpringBootPlugin.BOM_COORDINATES))
-
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
