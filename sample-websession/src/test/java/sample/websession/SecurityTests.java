@@ -14,26 +14,19 @@
  * limitations under the License.
  */
 
-package sample;
-
-import java.util.Set;
+package sample.websession;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit4.SpringRunner;
-import sample.pages.HomePage;
-import sample.pages.LoginPage;
-
-import static org.assertj.core.api.Assertions.assertThat;
+import sample.websession.pages.HomePage;
+import sample.websession.pages.LoginPage;
 
 /**
  * @author Pool Dolorier

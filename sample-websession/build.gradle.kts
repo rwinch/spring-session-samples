@@ -11,6 +11,9 @@ dependencies {
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
+	implementation("org.seleniumhq.selenium:selenium-support:3.141.59")
+	implementation("org.seleniumhq.selenium:htmlunit-driver:2.36.0")
+
 	when (rootProject.extra.get("profile")) {
 		"mongodb" -> {
 			implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
