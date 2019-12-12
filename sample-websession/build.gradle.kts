@@ -4,6 +4,8 @@ import org.springframework.boot.gradle.plugin.SpringBootPlugin
 apply<SpringBootPlugin>()
 apply<DependencyManagementPlugin>()
 
+ext["spring-security.version"] = "5.3.0.BUILD-SNAPSHOT"
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
 	implementation("org.springframework.boot:spring-boot-starter-security")

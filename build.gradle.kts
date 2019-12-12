@@ -16,6 +16,6 @@ subprojects {
 
 	repositories {
 		mavenCentral()
-		maven(url = "https://repo.spring.io/libs-milestone")
+		maven(url = "https://repo.spring.io/libs-snapshot")
 	}
 }
